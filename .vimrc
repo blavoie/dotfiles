@@ -4,4 +4,5 @@ set number
 " Set the expandtab option to false
 set noexpandtab
 set nobackup
-
+" Fix problems with TEMP dir in gvim on Windows
+set directory=.,$TEMP
