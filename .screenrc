@@ -15,10 +15,6 @@ defbce "on"
 defflow off
 defscrollback 10000
 defutf8 on
-escape ^]]
-#hardstatus string "[screen %n%?: %t%?] %h"
-hardstatus alwayslastline "%{= kR} %-Lw%{= Kk} %n%f %t %{-}%+Lw %=%{= dd}"
-hardstatus off
 multiuser on
 setenv DISPLAY ':0'
 setenv LANG 'C'             
@@ -26,3 +22,7 @@ shell -$SHELL
 startup_message off
 vbell on
 
+# Latest from nre
+hardstatus on
+hardstatus alwayslastline
+hardstatus string "%{.bW}%-w%{.rW}%n %t%{-}%+w %=%{..G} %H %{..Y} %m/%d %C%a "
