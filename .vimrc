@@ -1,3 +1,6 @@
+" Place in ~/.vimrc or C:\Users\<username>\_vimrc
+
+" Use a nice monospace font
 set guifont=Consolas:h11
 " Set the boolean number option to true
 set number
