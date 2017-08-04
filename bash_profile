@@ -8,7 +8,7 @@ PATH=/usr/bin:$HOME/dba/bin:$PATH
 
 # Prompt
 # DB_ENV="DEV|QA|PRE|PROD"
-DB_ENV="PROD"
+DB_ENV="DEV"
 if [ "$DB_ENV" = "PROD" ]; then
         DB_ENV="\e[1;31m$DB_ENV\e[0m"
 fi
